@@ -6,9 +6,10 @@
 
 - 本地分支：`main`。
 - 首次提交訊息：`Initial commit: Taiwan travel AI agent teaching project`。
-- 尚未設定 remote、建立 GitHub Repository 或執行 push。
-- 建議 GitHub Repository 名稱：`travel-ai-agent`，擁有者與公開／私人設定待使用者確認。
-- GitHub CLI 目前顯示既有帳號登入憑證無效，尚未驗證遠端權限。請在自己的終端機使用 `gh auth login -h github.com` 完成登入，勿把密碼、權杖或一次性驗證碼貼進專案或聊天。
+- 使用者已確認目標及公開設定；已建立公開 Repository：[ian09270927/travel-ai-agent](https://github.com/ian09270927/travel-ai-agent)。
+- `origin`：`https://github.com/ian09270927/travel-ai-agent.git`；本地 `main` 追蹤 `origin/main`。
+- 首次提交 `44f387d388ed406eb1d677429801edb28111066b` 已推送，並以 `git ls-remote` 確認遠端 `main` 雜湊相同。
+- GitHub API 已確認 `visibility=PUBLIC`、預設分支為 `main`，儲存庫非空。先前一般沙箱登入檢查失敗，取得網路存取後確認既有登入正常，未更換或輸出憑證。勿把密碼、權杖或一次性驗證碼貼進專案或聊天。
 - Commit 使用本機既有 Git 作者設定；作者姓名與 Email 會隨提交一併上傳。上傳前請檢查身分與隱私偏好。
 
 ## 安全與完整性檢查
@@ -81,6 +82,6 @@ video/watch.html
 
 ## 上傳前的確認
 
-請確認 GitHub 的擁有者／組織、Repository 名稱、公開或私人、以上檔案是否全部上傳，以及現有儲存庫是否為空。確認後才設定遠端或建立 Repository。若已有遠端內容，應先讀取並比較，不使用 force push 蓋掉既有歷史。
+本次已由使用者確認上述清單全部上傳至 `ian09270927/travel-ai-agent` 並設為公開。建立前已查詢，目標不存在，因此建立空儲存庫後正常推送，未使用 force push。後續若改用其他目標，仍須先確認擁有者、可見性與既有內容。
 
-第一次本地提交完成與成功上傳 GitHub 是不同狀態；本文件不代表已經上傳。
+本次已完成本地提交與 GitHub 上傳；本文件的狀態更新另以後續文件提交保留。GitHub Repository 公開不等於網站已部署，這次未啟用 GitHub Pages 或 Vercel。
