@@ -1,0 +1,74 @@
+name: Travel weekly review draft
+
+# UTC Monday 01:00 = Monday 09:00 Asia/Taipei; TZ below does not alter cron.
+'on':
+  schedule:
+    - cron: '0 1 * * 1'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'fixture = no network; live = reviewed public open-data source'
+        required: true
+        default: fixture
+        type: choice
+        options:
+          - fixture
+          - live
+
+permissions:
+  contents: read
+
+concurrency:
+  group: travel-weekly-review
+  cancel-in-progress: false
+
+jobs:
+  prepare-review:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      TZ: Asia/Taipei
+      PYTHONUTF8: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+      SOURCE_MODE: ${{ github.event_name == 'schedule' && 'live' || inputs.mode || 'fixture' }}
+    steps:
+      - name: Checkout reviewed workflow and collector
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Offline tests (standard library; no API keys)
+        run: |
+          python3 --version
+          python3 -m unittest discover -s automation/travel-weekly/tests -v
+
+      - name: Check source, deduplicate and prepare pending report
+        id: collect
+        run: python3 automation/travel-weekly/collect_weekly.py --mode "$SOURCE_MODE" --output review-output
+
+      - name: Summarize separate validation layers
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path('review-output/run-summary.json')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as stream:
+              stream.write('## Travel review demo\n\n')
+              if p.exists():
+                  d = json.loads(p.read_text(encoding='utf-8'))
+                  for k in ('event_name', 'mode', 'status', 'source_check', 'raw_count', 'accepted_count', 'duplicate_count', 'rejected_count', 'draft_generated', 'review_status', 'ai_call', 'website_update', 'publication'):
+                      stream.write(f'- {k}: `{d.get(k, "not_reached")}`\n')
+              else:
+                  stream.write('Collector did not create a run record; inspect checkout/test logs.\n')
+              stream.write('\nArtifacts are pending review. No AI API, website write or deployment step exists.\n')
+          PY
+
+      - name: Upload review bundle and failure records
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: travel-review-${{ github.run_id }}-${{ github.run_attempt }}
+          path: review-output/
+          if-no-files-found: warn
+          retention-days: 14

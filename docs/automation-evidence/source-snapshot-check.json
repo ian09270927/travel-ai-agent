@@ -1,0 +1,12 @@
+{
+  "mode": "cached_public_snapshot_test",
+  "live_fetch_success": false,
+  "note": "先前成功下載的公開資料快照；本次未連網，原擷取時間未另存，不補造查詢日。僅測解析與去重，沒有產出可發布週報。",
+  "payload_sha256": "8ecd862a7cb109621c6304a238b9ad813cd50a9353a064fff8b2ae379423602e",
+  "source_url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+  "source_update_time": "2026-10-19T14:30:03+08:00",
+  "raw_count": 6185,
+  "accepted_count": 6072,
+  "rejected_count": 0,
+  "duplicate_count": 113
+}

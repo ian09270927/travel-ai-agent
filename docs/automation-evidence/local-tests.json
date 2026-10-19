@@ -1,0 +1,25 @@
+{
+  "executed_at_utc": "2026-10-19T12:53:31.384530+00:00",
+  "scope": "local Python tests; not GitHub runner, schedule delivery, AI API or deployment",
+  "tests_run": 15,
+  "successful": true,
+  "cases": [
+    "test_collect.CollectorTests.test_allowlist",
+    "test_collect.CollectorTests.test_bad_rows_and_empty_upstream",
+    "test_collect.CollectorTests.test_failure_records_without_fake_draft",
+    "test_collect.CollectorTests.test_fixture_no_network_and_pending_only",
+    "test_collect.CollectorTests.test_http_200_rejection_page_stops_without_retry",
+    "test_collect.CollectorTests.test_metadata_license_and_resource",
+    "test_collect.CollectorTests.test_missing_address_does_not_merge_different_ids",
+    "test_collect.CollectorTests.test_newest_duplicate_and_alias",
+    "test_collect.CollectorTests.test_no_overwrite_or_product_output",
+    "test_collect.CollectorTests.test_shared_homepage_not_a_dedup_key",
+    "test_collect.CollectorTests.test_success_live_with_stubbed_public_source",
+    "test_collect.CollectorTests.test_timezone_and_monday",
+    "test_collect.CollectorTests.test_url_validation",
+    "test_collect.CollectorTests.test_zip_member_not_extracted",
+    "test_collect.CollectorTests.test_zip_schema_drift"
+  ],
+  "failures": 0,
+  "errors": 0
+}

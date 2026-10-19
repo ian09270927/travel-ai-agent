@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "review_status": "blocked",
+  "mode": "live",
+  "started_at_taipei": "2026-10-19T20:51:14.941627+08:00",
+  "started_at_utc": "2026-10-19T12:51:14.941627+00:00",
+  "event_name": "local",
+  "github_run_id": null,
+  "github_run_attempt": null,
+  "commit_sha": null,
+  "source_id": "tourism-attractions-7777",
+  "source_check": "metadata_license_link_and_download_checked",
+  "ai_call": "not_used",
+  "website_update": "not_attempted",
+  "publication": "not_attempted",
+  "draft_generated": false,
+  "stage": "parse",
+  "metadata_sha256": "fd770ed449d8e6877ab849def7a21aaace52f01cb3654fd27ba2c4765fb3bdeb",
+  "payload_sha256": "82afbd975cbd727683c84f5d6d90bd98b019a158e51c1087cad76903d071cfe5",
+  "error_type": "BadZipFile",
+  "error": "Invalid/unavailable source; inspect stage and error_type",
+  "finished_at_utc": "2026-10-19T12:51:15.738725+00:00"
+}

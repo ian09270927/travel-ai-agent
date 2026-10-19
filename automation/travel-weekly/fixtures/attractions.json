@@ -1,0 +1,12 @@
+{
+  "is_mock": true,
+  "UpdateTime": "2026-10-19T09:00:00+08:00",
+  "Attractions": [
+    {"AttractionID":"FIX-001","AttractionName":"模擬親子公園","Description":"離線測試用公園描述，不是真實景點或官方資料。","PostalAddress":{"City":"模擬縣","Town":"示範區","StreetAddress":"測試路1號"},"WebsiteURL":"","UpdateTime":"2026-10-12T09:00:00+08:00"},
+    {"AttractionID":"FIX-001","AttractionName":"模擬親子公園","Description":"新版離線測試描述，應保留這筆較新的紀錄。","PostalAddress":{"City":"模擬縣","Town":"示範區","StreetAddress":"測試路1號"},"WebsiteURL":"","UpdateTime":"2026-10-19T09:00:00+08:00"},
+    {"AttractionID":"FIX-002","AttractionName":"模擬庭園","Description":"僅測試文化景點文字，尚未判定任何客群適合度。","PostalAddress":{"City":"模擬市","Town":"示範區","StreetAddress":"測試路2號"},"WebsiteURL":"javascript:alert(1)","UpdateTime":"2026-10-18T09:00:00+08:00"},
+    {"AttractionID":"FIX-ALIAS","AttractionName":"模擬庭園","Description":"僅測試文化景點文字，尚未判定任何客群適合度。","PostalAddress":{"City":"模擬市","Town":"示範區","StreetAddress":"測試路2號"},"WebsiteURL":"","UpdateTime":"2026-10-17T09:00:00+08:00"},
+    {"AttractionID":"FIX-003","AttractionName":"模擬湖岸","Description":"<script>alert('測試')</script> 這段只作文字，不應被當成可執行指令或網頁。","PostalAddress":{"City":"模擬市","Town":"測試區","StreetAddress":"測試路3號"},"WebsiteURL":"","UpdateTime":"2026-10-17T09:00:00+08:00"},
+    {"AttractionID":"","AttractionName":"缺少 ID 的測試壞筆","Description":"應排除並記錄，不能補造 ID 冒充來源。","PostalAddress":{"City":"模擬市"}}
+  ]
+}

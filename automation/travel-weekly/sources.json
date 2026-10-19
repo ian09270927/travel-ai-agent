@@ -1,0 +1,19 @@
+{
+  "id": "tourism-attractions-7777",
+  "name": "景點 - 觀光資訊資料庫（觀光資料標準 V2.1）",
+  "publisher": "交通部觀光署",
+  "metadata_url": "https://data.gov.tw/dataset/7777",
+  "download_url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+  "archive_member": "AttractionList.json",
+  "license_name": "政府資料開放授權條款-第1版",
+  "license_url": "https://data.gov.tw/license",
+  "permission_reviewed_on": "2026-10-19",
+  "permission_basis": "官方資料集明列免費及政府資料開放授權條款第1版；每次 live 執行再檢查詮釋資料頁仍列相同授權及下載連結。",
+  "allowed_urls": [
+    "https://data.gov.tw/dataset/7777",
+    "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+  ],
+  "max_download_bytes": 20000000,
+  "max_uncompressed_bytes": 32000000,
+  "target_records": 9
+}
