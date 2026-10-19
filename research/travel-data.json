@@ -1,0 +1,480 @@
+{
+  "schema_version": "1.0",
+  "title": "臺灣親子、情侶與熟齡旅遊情報",
+  "queried_on": "2026-10-19",
+  "timezone": "Asia/Taipei",
+  "data_mode": "official_web_research",
+  "is_mock": false,
+  "method": "人工研究整理官方開放資料明細及活動頁；非API原始資料下載，不宣稱完整涵蓋全臺。",
+  "field_notes": {
+    "features": "官方內容的摘要改寫",
+    "suitable_audiences": "研究員推論，須連同條件閱讀",
+    "null": "未收錄或未充分核實；不表示免費、停業或沒有班次",
+    "activity_dates": "景點日期為null且標示不適用；活動採官方公告期間，不代表期間每日舉辦",
+    "updated_at": "僅收錄來源明示的更新時間；null表示未取得，與查詢日不同",
+    "operations": "本次聚焦特色、客群及活動期間；未完成價格、營業時間、交通班次的營運查證"
+  },
+  "records": [
+    {
+      "id": "TW-001",
+      "type": "景點",
+      "name": "大安森林公園",
+      "region": {
+        "country": "臺灣",
+        "city": "臺北市",
+        "district": "大安區"
+      },
+      "features": [
+        "自然水池、兒童遊戲運動場與露天音樂舞台",
+        "園內設有涼亭及休憩空間"
+      ],
+      "suitable_audiences": [
+        "親子",
+        "情侶",
+        "熟齡"
+      ],
+      "audience_assessment": {
+        "basis": "研究員依官方特色推論，非官方客群認證",
+        "reason": "親子可認識都市生態；情侶可散步賞景；熟齡可依體力選擇短程並安排休息。",
+        "conditions": "戶外需評估天候；無障礙設施及實際步行路線仍須逐段確認。"
+      },
+      "activity_dates": {
+        "start": null,
+        "end": null,
+        "status": "不適用：本筆為常設景點，未收錄特定活動日期",
+        "note": "常設景點不等於全年開放；不使用虛構日期。",
+        "source_id": "S01"
+      },
+      "price": null,
+      "opening_hours": null,
+      "transport_schedule": null,
+      "unverified_fields": [
+        "景點或活動價格",
+        "營業或每日開放時間",
+        "交通班次"
+      ],
+      "source": {
+        "id": "S01",
+        "publisher": "臺北市政府",
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_379000000a_000190",
+        "record_id": "Attraction_379000000A_000190",
+        "updated_at": null,
+        "queried_on": "2026-10-19",
+        "access_status": "已開啟官方網頁正文",
+        "kind": "觀光署開放資料平台明細頁"
+      },
+      "queried_on": "2026-10-19",
+      "is_mock": false,
+      "verification_status": "列示特色與活動期間已核對；未核實欄位保留null"
+    },
+    {
+      "id": "TW-002",
+      "type": "景點",
+      "name": "北投文物館",
+      "region": {
+        "country": "臺灣",
+        "city": "臺北市",
+        "district": "北投區"
+      },
+      "features": [
+        "前身為佳山旅館，保留日式木構建築與庭園",
+        "收藏臺灣民藝與多元文化文物"
+      ],
+      "suitable_audiences": [
+        "情侶",
+        "熟齡"
+      ],
+      "audience_assessment": {
+        "basis": "研究員依官方特色推論，非官方客群認證",
+        "reason": "適合偏好老屋、庭園與文化欣賞的情侶及熟齡旅客。",
+        "conditions": "位於半山腰，須確認接送、坡度、樓層動線及休息安排；不將熟齡等同於全程無障礙。"
+      },
+      "activity_dates": {
+        "start": null,
+        "end": null,
+        "status": "不適用：本筆為常設景點，未收錄特定活動日期",
+        "note": "常設景點不等於全年開放；不使用虛構日期。",
+        "source_id": "S02"
+      },
+      "price": null,
+      "opening_hours": null,
+      "transport_schedule": null,
+      "unverified_fields": [
+        "景點或活動價格",
+        "營業或每日開放時間",
+        "交通班次"
+      ],
+      "source": {
+        "id": "S02",
+        "publisher": "文化部（觀光署平台彙整）",
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_a25000000e_000057",
+        "record_id": "Attraction_A25000000E_000057",
+        "updated_at": "2026-03-06T16:51:17+08:00",
+        "queried_on": "2026-10-19",
+        "access_status": "已開啟官方網頁正文",
+        "kind": "觀光署開放資料平台明細頁"
+      },
+      "queried_on": "2026-10-19",
+      "is_mock": false,
+      "verification_status": "列示特色與活動期間已核對；未核實欄位保留null"
+    },
+    {
+      "id": "TW-003",
+      "type": "景點",
+      "name": "國立海洋生物博物館",
+      "region": {
+        "country": "臺灣",
+        "city": "屏東縣",
+        "district": "車城鄉"
+      },
+      "features": [
+        "以海洋生態展示為主題",
+        "資料介紹台灣水域館、珊瑚王國館與世界水域館"
+      ],
+      "suitable_audiences": [
+        "親子",
+        "情侶"
+      ],
+      "audience_assessment": {
+        "basis": "研究員依官方特色推論，非官方客群認證",
+        "reason": "海洋生態展示適合親子共學，也可作為喜歡自然主題的情侶行程。",
+        "conditions": "資料更新較舊，展館實際開放與展示變動待確認；未核對夜宿方案，不保證可報名。"
+      },
+      "activity_dates": {
+        "start": null,
+        "end": null,
+        "status": "不適用：本筆為常設景點，未收錄特定活動日期",
+        "note": "常設景點不等於全年開放；不使用虛構日期。",
+        "source_id": "S03"
+      },
+      "price": null,
+      "opening_hours": null,
+      "transport_schedule": null,
+      "unverified_fields": [
+        "景點或活動價格",
+        "營業或每日開放時間",
+        "交通班次"
+      ],
+      "source": {
+        "id": "S03",
+        "publisher": "屏東縣政府（觀光署平台彙整）",
+        "url": "https://media.taiwan.net.tw/en-us/portal/travel/details/attraction_376530000a_000070",
+        "record_id": "Attraction_376530000A_000070",
+        "updated_at": "2024-10-15T06:37:48+08:00",
+        "queried_on": "2026-10-19",
+        "access_status": "已開啟官方網頁正文",
+        "kind": "觀光署開放資料平台明細頁"
+      },
+      "queried_on": "2026-10-19",
+      "is_mock": false,
+      "verification_status": "列示特色與活動期間已核對；未核實欄位保留null"
+    },
+    {
+      "id": "TW-004",
+      "type": "景點",
+      "name": "向山眺望平台",
+      "region": {
+        "country": "臺灣",
+        "city": "南投縣",
+        "district": "魚池鄉"
+      },
+      "features": [
+        "懸臂式平台提供日月潭湖景視野",
+        "從向山遊客中心旁步道步行約400公尺可抵達"
+      ],
+      "suitable_audiences": [
+        "情侶",
+        "熟齡"
+      ],
+      "audience_assessment": {
+        "basis": "研究員依官方特色推論，非官方客群認證",
+        "reason": "湖景適合情侶賞景；能負擔步行的熟齡旅客可評估短程安排。",
+        "conditions": "格柵地板與臨水環境須注意隨身物品；來回距離、坡度及輔具適用性待確認。來源標示需入場相關費用但無金額，不能推定免費。"
+      },
+      "activity_dates": {
+        "start": null,
+        "end": null,
+        "status": "不適用：本筆為常設景點，未收錄特定活動日期",
+        "note": "常設景點不等於全年開放；不使用虛構日期。",
+        "source_id": "S04"
+      },
+      "price": null,
+      "opening_hours": null,
+      "transport_schedule": null,
+      "unverified_fields": [
+        "景點或活動價格",
+        "營業或每日開放時間",
+        "交通班次"
+      ],
+      "source": {
+        "id": "S04",
+        "publisher": "交通部觀光署日月潭國家風景區管理處",
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_a15010600h_000032",
+        "record_id": "Attraction_A15010600H_000032",
+        "updated_at": "2026-09-25 00:05",
+        "queried_on": "2026-10-19",
+        "access_status": "已開啟官方網頁正文",
+        "kind": "觀光署開放資料平台明細頁"
+      },
+      "queried_on": "2026-10-19",
+      "is_mock": false,
+      "verification_status": "列示特色與活動期間已核對；未核實欄位保留null"
+    },
+    {
+      "id": "TW-005",
+      "type": "景點",
+      "name": "十三行博物館",
+      "region": {
+        "country": "臺灣",
+        "city": "新北市",
+        "district": "八里區"
+      },
+      "features": [
+        "以十三行文化與考古教育為主題",
+        "常設展介紹遺址文物與先民生活"
+      ],
+      "suitable_audiences": [
+        "親子",
+        "熟齡"
+      ],
+      "audience_assessment": {
+        "basis": "研究員依官方特色推論，非官方客群認證",
+        "reason": "親子可從考古認識史前生活；熟齡旅客可依文化興趣參觀。",
+        "conditions": "兒童互動活動、導覽預約、無障礙路線與座椅配置待確認。此來源原分類是旅遊服務站點，並非景點資料集。"
+      },
+      "activity_dates": {
+        "start": null,
+        "end": null,
+        "status": "不適用：本筆為常設景點，未收錄特定活動日期",
+        "note": "常設景點不等於全年開放；不使用虛構日期。",
+        "source_id": "S05"
+      },
+      "price": null,
+      "opening_hours": null,
+      "transport_schedule": null,
+      "unverified_fields": [
+        "景點或活動價格",
+        "營業或每日開放時間",
+        "交通班次"
+      ],
+      "source": {
+        "id": "S05",
+        "publisher": "交通部觀光署",
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/tourismservicesite_a15010000h_000173",
+        "record_id": "TourismServiceSite_A15010000H_000173",
+        "updated_at": "2026-10-13 02:00",
+        "queried_on": "2026-10-19",
+        "access_status": "已開啟官方網頁正文",
+        "kind": "觀光署開放資料平台明細頁"
+      },
+      "queried_on": "2026-10-19",
+      "is_mock": false,
+      "verification_status": "列示特色與活動期間已核對；未核實欄位保留null"
+    },
+    {
+      "id": "TW-006",
+      "type": "景點",
+      "name": "阿里山國家森林遊樂區",
+      "region": {
+        "country": "臺灣",
+        "city": "嘉義縣",
+        "district": "阿里山鄉"
+      },
+      "features": [
+        "森林、巨木群與林業文化景觀",
+        "官方介紹森林鐵道、日出及雲海等景致"
+      ],
+      "suitable_audiences": [
+        "親子",
+        "情侶",
+        "熟齡"
+      ],
+      "audience_assessment": {
+        "basis": "研究員依官方特色推論，非官方客群認證",
+        "reason": "適合喜歡森林教育的親子、山林景觀的情侶，以及可配合山區條件與縮短步行的熟齡旅客。",
+        "conditions": "須按體力及健康狀況評估山區活動；天候、步道及鐵道行駛狀態另查，不保證看見日出雲海。"
+      },
+      "activity_dates": {
+        "start": null,
+        "end": null,
+        "status": "不適用：本筆為常設景點，未收錄特定活動日期",
+        "note": "常設景點不等於全年開放；不使用虛構日期。",
+        "source_id": "S06"
+      },
+      "price": null,
+      "opening_hours": null,
+      "transport_schedule": null,
+      "unverified_fields": [
+        "景點或活動價格",
+        "營業或每日開放時間",
+        "交通班次"
+      ],
+      "source": {
+        "id": "S06",
+        "publisher": "林業保育署（觀光署平台彙整）",
+        "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_345040000g_000012",
+        "record_id": "Attraction_345040000G_000012",
+        "updated_at": "2026-10-11 12:20",
+        "queried_on": "2026-10-19",
+        "access_status": "已開啟官方網頁正文",
+        "kind": "觀光署開放資料平台明細頁"
+      },
+      "queried_on": "2026-10-19",
+      "is_mock": false,
+      "verification_status": "列示特色與活動期間已核對；未核實欄位保留null"
+    },
+    {
+      "id": "TW-007",
+      "type": "活動",
+      "name": "2026日月潭花火音樂嘉年華",
+      "region": {
+        "country": "臺灣",
+        "city": "南投縣",
+        "district": "魚池鄉"
+      },
+      "features": [
+        "以湖畔音樂與花火展演為特色的系列活動"
+      ],
+      "suitable_audiences": [
+        "情侶",
+        "親子",
+        "熟齡"
+      ],
+      "audience_assessment": {
+        "basis": "研究員依官方特色推論，非官方客群認證",
+        "reason": "適合喜歡音樂與湖景的旅客；親子與熟齡宜依場次及夜間移動負擔選擇。",
+        "conditions": "系列期間不代表每日施放花火；須另核對各場日期、場地、天候、交通管制與散場方式。"
+      },
+      "activity_dates": {
+        "start": "2026-09-12",
+        "end": "2026-11-14",
+        "status": "官方已公告",
+        "note": "系列期間，非每日演出或施放花火",
+        "source_id": "S07"
+      },
+      "price": null,
+      "opening_hours": null,
+      "transport_schedule": null,
+      "unverified_fields": [
+        "景點或活動價格",
+        "營業或每日開放時間",
+        "交通班次"
+      ],
+      "source": {
+        "id": "S07",
+        "publisher": "交通部觀光署日月潭國家風景區管理處",
+        "url": "https://www.sunmoonlake.gov.tw/Events/Activitys?a=24&id=7",
+        "record_id": null,
+        "updated_at": null,
+        "queried_on": "2026-10-19",
+        "access_status": "已開啟官方網頁正文",
+        "kind": "官方活動資訊頁"
+      },
+      "queried_on": "2026-10-19",
+      "is_mock": false,
+      "verification_status": "列示特色與活動期間已核對；未核實欄位保留null"
+    },
+    {
+      "id": "TW-008",
+      "type": "活動",
+      "name": "2026臺中爵士音樂節",
+      "region": {
+        "country": "臺灣",
+        "city": "臺中市",
+        "district": "西區"
+      },
+      "features": [
+        "市民廣場及草悟道周邊的戶外爵士音樂活動"
+      ],
+      "suitable_audiences": [
+        "情侶",
+        "熟齡"
+      ],
+      "audience_assessment": {
+        "basis": "研究員依官方特色推論，非官方客群認證",
+        "reason": "適合喜歡現場音樂的情侶與熟齡旅客，可依節目長度選擇停留。",
+        "conditions": "音量、人潮、座位與夜間散場需事先評估；不保證有座位，逐日節目與開演時間待確認。"
+      },
+      "activity_dates": {
+        "start": "2026-10-16",
+        "end": "2026-10-25",
+        "status": "官方已公告",
+        "note": "官方活動頁公布期間；逐日節目待核對",
+        "source_id": "S08"
+      },
+      "price": null,
+      "opening_hours": null,
+      "transport_schedule": null,
+      "unverified_fields": [
+        "景點或活動價格",
+        "營業或每日開放時間",
+        "交通班次"
+      ],
+      "source": {
+        "id": "S08",
+        "publisher": "交通部觀光署；主辦單位為臺中市政府文化局",
+        "url": "https://www.taiwan.net.tw/m1.aspx?lid=081671&sNo=0001019",
+        "record_id": null,
+        "updated_at": null,
+        "queried_on": "2026-10-19",
+        "access_status": "已開啟官方網頁正文",
+        "kind": "官方活動資訊頁"
+      },
+      "queried_on": "2026-10-19",
+      "is_mock": false,
+      "verification_status": "列示特色與活動期間已核對；未核實欄位保留null"
+    },
+    {
+      "id": "TW-009",
+      "type": "活動",
+      "name": "2026新社花海暨臺中國際花毯節",
+      "region": {
+        "country": "臺灣",
+        "city": "臺中市",
+        "district": "新社區"
+      },
+      "features": [
+        "花卉裝置藝術與在地農業文化",
+        "觀光署活動頁列場地為種苗改良繁殖場第二苗圃"
+      ],
+      "suitable_audiences": [
+        "親子",
+        "情侶",
+        "熟齡"
+      ],
+      "audience_assessment": {
+        "basis": "研究員依官方特色推論，非官方客群認證",
+        "reason": "親子可認識花卉與農業，情侶可賞花攝影；熟齡旅客宜挑選短程動線及休息點。",
+        "conditions": "活動尚未開始，花況不保證；開放時間、步行距離、遮蔭、接駁與人潮管理待主辦公告確認。"
+      },
+      "activity_dates": {
+        "start": "2026-10-31",
+        "end": "2026-11-22",
+        "status": "官方已公告",
+        "note": "官方活動頁公布期間；出發前重查",
+        "source_id": "S09"
+      },
+      "price": null,
+      "opening_hours": null,
+      "transport_schedule": null,
+      "unverified_fields": [
+        "景點或活動價格",
+        "營業或每日開放時間",
+        "交通班次"
+      ],
+      "source": {
+        "id": "S09",
+        "publisher": "交通部觀光署；主辦單位為農業部種苗改良繁殖場、臺中市政府",
+        "url": "https://www.taiwan.net.tw/m1.aspx?lid=081878&sNo=0001019",
+        "record_id": null,
+        "updated_at": null,
+        "queried_on": "2026-10-19",
+        "access_status": "已開啟官方網頁正文",
+        "kind": "官方活動資訊頁"
+      },
+      "queried_on": "2026-10-19",
+      "is_mock": false,
+      "verification_status": "列示特色與活動期間已核對；未核實欄位保留null"
+    }
+  ]
+}

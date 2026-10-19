@@ -1,0 +1,82 @@
+{
+  "final": "C:\\Users\\ian09\\AI Agent從零到高手的基礎課\\旅行社範例\\video\\final\\taiwan-travel-30s-v01.mp4",
+  "duration": "30.000000",
+  "streams": [
+    {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "24/1",
+      "nb_frames": "720",
+      "sample_rate": null,
+      "channels": null
+    },
+    {
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "width": null,
+      "height": null,
+      "r_frame_rate": "0/0",
+      "nb_frames": "1408",
+      "sample_rate": "48000",
+      "channels": 1
+    }
+  ],
+  "voice": "Microsoft Hanhan Desktop - Chinese (Taiwan)",
+  "technique": "Three AI-generated still images with FFmpeg camera motion; not generated actor movement",
+  "music": "Locally synthesized original instrumental from make-film.py",
+  "captions": [
+    [
+      1.0,
+      2.77,
+      "帶孩子看看自然，"
+    ],
+    [
+      2.82,
+      3.98,
+      "讓好奇心，"
+    ],
+    [
+      4.04,
+      6.06,
+      "成為旅行的起點。"
+    ],
+    [
+      10.8,
+      12.2,
+      "和喜歡的人，"
+    ],
+    [
+      12.24,
+      14.03,
+      "走進庭園與文化，"
+    ],
+    [
+      14.08,
+      15.38,
+      "留一點時間，"
+    ],
+    [
+      15.43,
+      16.81,
+      "好好相處。"
+    ],
+    [
+      20.5,
+      23.45,
+      "陪家人照自己的步調旅行。"
+    ],
+    [
+      24.03,
+      26.23,
+      "告訴我們日期與偏好，"
+    ],
+    [
+      26.25,
+      28.05,
+      "一起討論安排。"
+    ]
+  ],
+  "human_ear_review": "not performed"
+}

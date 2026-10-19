@@ -1,0 +1,22 @@
+{
+  "executed_at": "2026-10-19T10:54:55.540Z",
+  "browser": "Microsoft Edge / Playwright",
+  "passed": [
+    "audience/day/budget/style strict filters and inclusive budget boundary",
+    "event dates, missing date, expiry and day_index inclusive boundaries",
+    "invalid input and notes length validation",
+    "sorting, top three and fourth selection rejection",
+    "malformed dataset, duplicate IDs and partial invalid plan exclusion",
+    "browser data load and required field errors",
+    "recommendation, source details, compare, inquiry and real browser clipboard",
+    "clipboard rejection fallback and downloaded text content",
+    "preference change invalidates old results and inquiry; no results state",
+    "all three companion controls, event UI and multiple candidate selections",
+    "notes remain plain text, no storage/cookies, reload clears inputs",
+    "1440/768/360/800 landscape responsive layouts have no horizontal overflow",
+    "200% root text, reduced motion and native keyboard radio/reset operation",
+    "no external network requests and no JavaScript runtime errors",
+    "load failure, disabled recommendation and retry recovery",
+    "partial bad data warning and entirely empty dataset error"
+  ]
+}

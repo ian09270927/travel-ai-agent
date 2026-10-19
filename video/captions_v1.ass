@@ -1,0 +1,40 @@
+[Script Info]
+Title: 台灣旅行，從喜歡的事開始
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Subtitle,Microsoft JhengHei,52,&H00F8F3E7,&H00FFFFFF,&H00141D17,&H80000000,-1,0,0,0,100,100,1,0,1,2.2,1,2,100,100,135,1
+Style: Head,Microsoft JhengHei,92,&H00E7F3F8,&H00FFFFFF,&H700F2016,&H90000000,-1,0,0,0,100,100,3,0,1,1,2,7,0,0,0,1
+Style: Label,Microsoft JhengHei,27,&H00E7F3F8,&H00FFFFFF,&H500D1A12,&H00000000,0,0,0,0,100,100,5,0,1,1,0,7,0,0,0,1
+Style: Small,Microsoft JhengHei,24,&H00E7F3F8,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,0,0,7,0,0,0,1
+Style: CTA,Microsoft JhengHei,67,&H00E7F3F8,&H00FFFFFF,&H5014291D,&H90000000,-1,0,0,0,100,100,1,0,1,1,2,7,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:30.00,Small,,0,0,0,,{\pos(72,26)}AI 生成示意畫面
+Dialogue: 1,0:00:00.00,0:00:30.00,Small,,0,0,0,,{\an9\pos(1848,26)}TAIWAN TRAVEL
+Dialogue: 1,0:00:00.70,0:00:07.50,Label,,0,0,0,,{\pos(126,307)\fad(500,500)}01   親子共學
+Dialogue: 1,0:00:00.90,0:00:07.60,Head,,0,0,0,,{\pos(120,365)\fad(600,600)}一起探索
+Dialogue: 1,0:00:10.70,0:00:17.80,Label,,0,0,0,,{\pos(126,307)\fad(500,500)}02   情侶藝文
+Dialogue: 1,0:00:10.90,0:00:17.90,Head,,0,0,0,,{\pos(120,365)\fad(600,600)}共享體驗
+Dialogue: 1,0:00:20.70,0:00:25.50,Label,,0,0,0,,{\pos(1130,323)\fad(500,400)}03   熟齡慢遊
+Dialogue: 1,0:00:20.90,0:00:25.70,Head,,0,0,0,,{\pos(1120,380)\fad(600,500)}依自己的步調
+Dialogue: 1,0:00:26.10,0:00:30.00,Label,,0,0,0,,{\pos(1035,292)\fad(600,200)}TAIWAN JOURNEYS
+Dialogue: 1,0:00:26.30,0:00:30.00,CTA,,0,0,0,,{\pos(1025,345)\fad(650,200)}台灣旅行，\N從喜歡的事開始
+Dialogue: 1,0:00:26.60,0:00:30.00,Label,,0,0,0,,{\pos(1030,555)\fad(600,200)\fsp2}告訴我們日期與偏好
+Dialogue: 3,0:00:01.00,0:00:02.77,Subtitle,,0,0,0,,{\fad(70,70)}帶孩子看看自然，
+Dialogue: 3,0:00:02.82,0:00:03.98,Subtitle,,0,0,0,,{\fad(70,70)}讓好奇心，
+Dialogue: 3,0:00:04.04,0:00:06.06,Subtitle,,0,0,0,,{\fad(70,70)}成為旅行的起點。
+Dialogue: 3,0:00:10.80,0:00:12.20,Subtitle,,0,0,0,,{\fad(70,70)}和喜歡的人，
+Dialogue: 3,0:00:12.24,0:00:14.03,Subtitle,,0,0,0,,{\fad(70,70)}走進庭園與文化，
+Dialogue: 3,0:00:14.08,0:00:15.38,Subtitle,,0,0,0,,{\fad(70,70)}留一點時間，
+Dialogue: 3,0:00:15.43,0:00:16.81,Subtitle,,0,0,0,,{\fad(70,70)}好好相處。
+Dialogue: 3,0:00:20.50,0:00:23.45,Subtitle,,0,0,0,,{\fad(70,70)}陪家人照自己的步調旅行。
+Dialogue: 3,0:00:24.03,0:00:26.23,Subtitle,,0,0,0,,{\fad(70,70)}告訴我們日期與偏好，
+Dialogue: 3,0:00:26.25,0:00:28.05,Subtitle,,0,0,0,,{\fad(70,70)}一起討論安排。

@@ -1,0 +1,361 @@
+{
+  "schema_version": "1.0",
+  "data_mode": "mock",
+  "notice": "教學示範：行程、價格與天數為模擬，非旅行社報價。實際活動、費用、開放與交通須另行確認。",
+  "plans": [
+    {
+      "id": "MOCK-01",
+      "title": "台北都市生態示範遊",
+      "region": "臺北市大安區",
+      "audiences": [
+        "family"
+      ],
+      "days": 1,
+      "demo_price_per_person_twd": 2800,
+      "styles": [
+        "nature",
+        "scenic"
+      ],
+      "highlights": [
+        "自然水池、兒童遊戲運動場與露天音樂舞台",
+        "園內設有涼亭及休憩空間"
+      ],
+      "itinerary_outline": [
+        "公園生態觀察與休憩討論"
+      ],
+      "research_ids": [
+        "TW-001"
+      ],
+      "event_requirements": [],
+      "cautions": [
+        "戶外需評估天候；無障礙設施及實際步行路線仍須逐段確認。",
+        "每日提綱為教學安排，交通、住宿及實際服務內容尚未核對。"
+      ],
+      "is_mock": true,
+      "mock_fields": [
+        "title",
+        "days",
+        "demo_price_per_person_twd",
+        "itinerary_outline"
+      ],
+      "mock_notice": "教學示範：行程、價格與天數為模擬，非旅行社報價。實際活動、費用、開放與交通須另行確認。",
+      "image": "video/assets_v1/scene-01.png",
+      "image_kind": "ai_illustration"
+    },
+    {
+      "id": "MOCK-02",
+      "title": "屏東海洋共學示範遊",
+      "region": "屏東縣車城鄉",
+      "audiences": [
+        "family"
+      ],
+      "days": 2,
+      "demo_price_per_person_twd": 6200,
+      "styles": [
+        "nature"
+      ],
+      "highlights": [
+        "以海洋生態展示為主題",
+        "資料介紹台灣水域館、珊瑚王國館與世界水域館"
+      ],
+      "itinerary_outline": [
+        "海洋生態展示主題參觀",
+        "親子共學回顧與彈性活動討論"
+      ],
+      "research_ids": [
+        "TW-003"
+      ],
+      "event_requirements": [],
+      "cautions": [
+        "資料更新較舊，展館實際開放與展示變動待確認；未核對夜宿方案，不保證可報名。",
+        "每日提綱為教學安排，交通、住宿及實際服務內容尚未核對。"
+      ],
+      "is_mock": true,
+      "mock_fields": [
+        "title",
+        "days",
+        "demo_price_per_person_twd",
+        "itinerary_outline"
+      ],
+      "mock_notice": "教學示範：行程、價格與天數為模擬，非旅行社報價。實際活動、費用、開放與交通須另行確認。",
+      "image": "video/assets_v1/scene-01.png",
+      "image_kind": "ai_illustration"
+    },
+    {
+      "id": "MOCK-03",
+      "title": "北投建築文化示範遊",
+      "region": "臺北市北投區",
+      "audiences": [
+        "couple"
+      ],
+      "days": 1,
+      "demo_price_per_person_twd": 3600,
+      "styles": [
+        "culture"
+      ],
+      "highlights": [
+        "前身為佳山旅館，保留日式木構建築與庭園",
+        "收藏臺灣民藝與多元文化文物"
+      ],
+      "itinerary_outline": [
+        "木構建築、庭園與文化欣賞"
+      ],
+      "research_ids": [
+        "TW-002"
+      ],
+      "event_requirements": [],
+      "cautions": [
+        "位於半山腰，須確認接送、坡度、樓層動線及休息安排；不將熟齡等同於全程無障礙。",
+        "每日提綱為教學安排，交通、住宿及實際服務內容尚未核對。"
+      ],
+      "is_mock": true,
+      "mock_fields": [
+        "title",
+        "days",
+        "demo_price_per_person_twd",
+        "itinerary_outline"
+      ],
+      "mock_notice": "教學示範：行程、價格與天數為模擬，非旅行社報價。實際活動、費用、開放與交通須另行確認。",
+      "image": "video/assets_v1/scene-02.png",
+      "image_kind": "ai_illustration"
+    },
+    {
+      "id": "MOCK-04",
+      "title": "日月潭湖景示範遊",
+      "region": "南投縣魚池鄉",
+      "audiences": [
+        "couple"
+      ],
+      "days": 2,
+      "demo_price_per_person_twd": 7800,
+      "styles": [
+        "scenic"
+      ],
+      "highlights": [
+        "懸臂式平台提供日月潭湖景視野",
+        "從向山遊客中心旁步道步行約400公尺可抵達"
+      ],
+      "itinerary_outline": [
+        "湖景欣賞與步行條件評估",
+        "湖畔主題延伸與彈性安排討論"
+      ],
+      "research_ids": [
+        "TW-004"
+      ],
+      "event_requirements": [],
+      "cautions": [
+        "格柵地板與臨水環境須注意隨身物品；來回距離、坡度及輔具適用性待確認。來源標示需入場相關費用但無金額，不能推定免費。",
+        "每日提綱為教學安排，交通、住宿及實際服務內容尚未核對。"
+      ],
+      "is_mock": true,
+      "mock_fields": [
+        "title",
+        "days",
+        "demo_price_per_person_twd",
+        "itinerary_outline"
+      ],
+      "mock_notice": "教學示範：行程、價格與天數為模擬，非旅行社報價。實際活動、費用、開放與交通須另行確認。",
+      "image": "video/assets_v1/scene-02.png",
+      "image_kind": "ai_illustration"
+    },
+    {
+      "id": "MOCK-05",
+      "title": "八里考古慢遊示範",
+      "region": "新北市八里區",
+      "audiences": [
+        "senior"
+      ],
+      "days": 1,
+      "demo_price_per_person_twd": 2400,
+      "styles": [
+        "culture"
+      ],
+      "highlights": [
+        "以十三行文化與考古教育為主題",
+        "常設展介紹遺址文物與先民生活"
+      ],
+      "itinerary_outline": [
+        "考古文物欣賞與休息安排討論"
+      ],
+      "research_ids": [
+        "TW-005"
+      ],
+      "event_requirements": [],
+      "cautions": [
+        "兒童互動活動、導覽預約、無障礙路線與座椅配置待確認。此來源原分類是旅遊服務站點，並非景點資料集。",
+        "每日提綱為教學安排，交通、住宿及實際服務內容尚未核對。"
+      ],
+      "is_mock": true,
+      "mock_fields": [
+        "title",
+        "days",
+        "demo_price_per_person_twd",
+        "itinerary_outline"
+      ],
+      "mock_notice": "教學示範：行程、價格與天數為模擬，非旅行社報價。實際活動、費用、開放與交通須另行確認。",
+      "image": "video/assets_v1/scene-03.png",
+      "image_kind": "ai_illustration"
+    },
+    {
+      "id": "MOCK-06",
+      "title": "阿里山森林慢遊示範",
+      "region": "嘉義縣阿里山鄉",
+      "audiences": [
+        "senior"
+      ],
+      "days": 2,
+      "demo_price_per_person_twd": 6800,
+      "styles": [
+        "nature",
+        "scenic"
+      ],
+      "highlights": [
+        "森林、巨木群與林業文化景觀",
+        "官方介紹森林鐵道、日出及雲海等景致"
+      ],
+      "itinerary_outline": [
+        "森林與林業文化主題探索",
+        "依體力討論短程步道與休息安排"
+      ],
+      "research_ids": [
+        "TW-006"
+      ],
+      "event_requirements": [],
+      "cautions": [
+        "須按體力及健康狀況評估山區活動；天候、步道及鐵道行駛狀態另查，不保證看見日出雲海。",
+        "每日提綱為教學安排，交通、住宿及實際服務內容尚未核對。"
+      ],
+      "is_mock": true,
+      "mock_fields": [
+        "title",
+        "days",
+        "demo_price_per_person_twd",
+        "itinerary_outline"
+      ],
+      "mock_notice": "教學示範：行程、價格與天數為模擬，非旅行社報價。實際活動、費用、開放與交通須另行確認。",
+      "image": "video/assets_v1/scene-03.png",
+      "image_kind": "ai_illustration"
+    },
+    {
+      "id": "MOCK-07",
+      "title": "八里親子考古示範遊",
+      "region": "新北市八里區",
+      "audiences": [
+        "family"
+      ],
+      "days": 1,
+      "demo_price_per_person_twd": 2200,
+      "styles": [
+        "culture"
+      ],
+      "highlights": [
+        "以十三行文化與考古教育為主題",
+        "常設展介紹遺址文物與先民生活"
+      ],
+      "itinerary_outline": [
+        "認識先民生活與親子文化討論"
+      ],
+      "research_ids": [
+        "TW-005"
+      ],
+      "event_requirements": [],
+      "cautions": [
+        "兒童互動活動、導覽預約、無障礙路線與座椅配置待確認。此來源原分類是旅遊服務站點，並非景點資料集。",
+        "每日提綱為教學安排，交通、住宿及實際服務內容尚未核對。"
+      ],
+      "is_mock": true,
+      "mock_fields": [
+        "title",
+        "days",
+        "demo_price_per_person_twd",
+        "itinerary_outline"
+      ],
+      "mock_notice": "教學示範：行程、價格與天數為模擬，非旅行社報價。實際活動、費用、開放與交通須另行確認。",
+      "image": "video/assets_v1/scene-01.png",
+      "image_kind": "ai_illustration"
+    },
+    {
+      "id": "MOCK-08",
+      "title": "台中爵士主題示範遊",
+      "region": "臺中市西區",
+      "audiences": [
+        "couple"
+      ],
+      "days": 1,
+      "demo_price_per_person_twd": 3200,
+      "styles": [
+        "music"
+      ],
+      "highlights": [
+        "市民廣場及草悟道周邊的戶外爵士音樂活動"
+      ],
+      "itinerary_outline": [
+        "依官方實際場次討論音樂活動"
+      ],
+      "research_ids": [
+        "TW-008"
+      ],
+      "event_requirements": [
+        {
+          "research_id": "TW-008",
+          "day_index": 1
+        }
+      ],
+      "cautions": [
+        "音量、人潮、座位與夜間散場需事先評估；不保證有座位，逐日節目與開演時間待確認。",
+        "每日提綱為教學安排，交通、住宿及實際服務內容尚未核對。"
+      ],
+      "is_mock": true,
+      "mock_fields": [
+        "title",
+        "days",
+        "demo_price_per_person_twd",
+        "itinerary_outline"
+      ],
+      "mock_notice": "教學示範：行程、價格與天數為模擬，非旅行社報價。實際活動、費用、開放與交通須另行確認。",
+      "image": "video/assets_v1/scene-02.png",
+      "image_kind": "ai_illustration"
+    },
+    {
+      "id": "MOCK-09",
+      "title": "阿里山山林景觀示範遊",
+      "region": "嘉義縣阿里山鄉",
+      "audiences": [
+        "couple"
+      ],
+      "days": 3,
+      "demo_price_per_person_twd": 11800,
+      "styles": [
+        "nature",
+        "scenic"
+      ],
+      "highlights": [
+        "森林、巨木群與林業文化景觀",
+        "官方介紹森林鐵道、日出及雲海等景致"
+      ],
+      "itinerary_outline": [
+        "山林景觀與林業文化探索",
+        "依天候討論森林主題安排",
+        "彈性景觀欣賞與旅行回顧"
+      ],
+      "research_ids": [
+        "TW-006"
+      ],
+      "event_requirements": [],
+      "cautions": [
+        "須按體力及健康狀況評估山區活動；天候、步道及鐵道行駛狀態另查，不保證看見日出雲海。",
+        "每日提綱為教學安排，交通、住宿及實際服務內容尚未核對。"
+      ],
+      "is_mock": true,
+      "mock_fields": [
+        "title",
+        "days",
+        "demo_price_per_person_twd",
+        "itinerary_outline"
+      ],
+      "mock_notice": "教學示範：行程、價格與天數為模擬，非旅行社報價。實際活動、費用、開放與交通須另行確認。",
+      "image": "video/assets_v1/scene-02.png",
+      "image_kind": "ai_illustration"
+    }
+  ]
+}

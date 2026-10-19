@@ -1,0 +1,8 @@
+{
+  "passed": [
+    "image/video actual request failures, text fallback, recommendation unaffected and media retries recover",
+    "undecided budget UI and three style rejection",
+    "keyboard activation across form/details/compare/inquiry, comparison remove/readd and full clear",
+    "malformed JSON reports load error"
+  ]
+}

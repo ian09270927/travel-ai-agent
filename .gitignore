@@ -1,0 +1,61 @@
+# Credentials, local environment and private keys (including nested files)
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+credentials*.json
+service-account*.json
+service_account*.json
+*serviceAccount*.json
+secrets.*
+.npmrc
+.netrc
+id_rsa*
+id_ed25519*
+.aws/
+.ssh/
+.codex/
+.agents/
+
+# Dependencies, local settings, caches and editor/OS files
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.bak
+~$*
+
+# Keep only the two website acceptance scripts from the local build workspace
+/.build/*
+!/.build/test-site.mjs
+!/.build/test-site-errors.mjs
+
+# Intermediate video renders; preserve the poster referenced by index.html
+/video/render_v1/*
+!/video/render_v1/previews/
+/video/render_v1/previews/*
+!/video/render_v1/previews/frame-02.0.png
+!/video/render_v1/make-film.py
+!/video/render_v1/synthesize.ps1
+!/video/render_v1/validation.json
+!/video/render_v1/playback-validation.json
+/video/assets_v1/*.wav
+/video/assets_v1/*.mp3
+
+# Debug-only browser screenshot; retain the published acceptance evidence
+/outputs/site-qa/debug.png
