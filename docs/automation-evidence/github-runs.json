@@ -1,0 +1,232 @@
+[
+  {
+    "mode": "fixture",
+    "run": {
+      "conclusion": "success",
+      "createdAt": "2026-10-19T13:00:45Z",
+      "event": "workflow_dispatch",
+      "headSha": "b5e47c956ebec4384a4e745fcc2e620395568beb",
+      "jobs": [
+        {
+          "completedAt": "2026-10-19T13:01:02Z",
+          "conclusion": "success",
+          "databaseId": 118073242155,
+          "name": "prepare-review",
+          "startedAt": "2026-10-19T13:00:52Z",
+          "status": "completed",
+          "steps": [
+            {
+              "completedAt": "2026-10-19T13:00:54Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "startedAt": "2026-10-19T13:00:53Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-19T13:00:56Z",
+              "conclusion": "success",
+              "name": "Checkout reviewed workflow and collector",
+              "number": 2,
+              "startedAt": "2026-10-19T13:00:54Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-19T13:00:57Z",
+              "conclusion": "success",
+              "name": "Offline tests (standard library; no API keys)",
+              "number": 3,
+              "startedAt": "2026-10-19T13:00:56Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-19T13:00:57Z",
+              "conclusion": "success",
+              "name": "Check source, deduplicate and prepare pending report",
+              "number": 4,
+              "startedAt": "2026-10-19T13:00:57Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-19T13:00:57Z",
+              "conclusion": "success",
+              "name": "Summarize separate validation layers",
+              "number": 5,
+              "startedAt": "2026-10-19T13:00:57Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-19T13:00:58Z",
+              "conclusion": "success",
+              "name": "Upload review bundle and failure records",
+              "number": 6,
+              "startedAt": "2026-10-19T13:00:57Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-19T13:00:58Z",
+              "conclusion": "success",
+              "name": "Post Checkout reviewed workflow and collector",
+              "number": 12,
+              "startedAt": "2026-10-19T13:00:58Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-19T13:00:58Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 13,
+              "startedAt": "2026-10-19T13:00:58Z",
+              "status": "completed"
+            }
+          ],
+          "url": "https://github.com/ian09270927/travel-ai-agent/actions/runs/39256563133/job/118073242155"
+        }
+      ],
+      "status": "completed",
+      "updatedAt": "2026-10-19T13:01:02Z",
+      "url": "https://github.com/ian09270927/travel-ai-agent/actions/runs/39256563133"
+    },
+    "artifacts": {
+      "total_count": 1,
+      "artifacts": [
+        {
+          "id": 12187464216,
+          "node_id": "MDg6QXJ0aWZhY3QxMjE4NzQ2NDIxNg==",
+          "name": "travel-review-39256563133-1",
+          "size_in_bytes": 4333,
+          "url": "https://api.github.com/repos/ian09270927/travel-ai-agent/actions/artifacts/12187464216",
+          "archive_download_url": "https://api.github.com/repos/ian09270927/travel-ai-agent/actions/artifacts/12187464216/zip",
+          "expired": false,
+          "digest": "sha256:9f486be57bf81b51590dfff125b27b4c4bbf4a7885521f731dfe05848d7c8f11",
+          "created_at": "2026-10-19T13:00:58Z",
+          "updated_at": "2026-10-19T13:00:58Z",
+          "expires_at": "2026-11-02T13:00:57Z",
+          "workflow_run": {
+            "id": 39256563133,
+            "repository_id": 1425509250,
+            "head_repository_id": 1425509250,
+            "head_branch": "main",
+            "head_sha": "b5e47c956ebec4384a4e745fcc2e620395568beb"
+          }
+        }
+      ]
+    },
+    "downloaded_and_checked": true
+  },
+  {
+    "mode": "live",
+    "run": {
+      "conclusion": "failure",
+      "createdAt": "2026-10-19T13:01:00Z",
+      "event": "workflow_dispatch",
+      "headSha": "b5e47c956ebec4384a4e745fcc2e620395568beb",
+      "jobs": [
+        {
+          "completedAt": "2026-10-19T13:01:16Z",
+          "conclusion": "failure",
+          "databaseId": 118073341500,
+          "name": "prepare-review",
+          "startedAt": "2026-10-19T13:01:04Z",
+          "status": "completed",
+          "steps": [
+            {
+              "completedAt": "2026-10-19T13:01:06Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "startedAt": "2026-10-19T13:01:05Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-19T13:01:09Z",
+              "conclusion": "success",
+              "name": "Checkout reviewed workflow and collector",
+              "number": 2,
+              "startedAt": "2026-10-19T13:01:06Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-19T13:01:09Z",
+              "conclusion": "success",
+              "name": "Offline tests (standard library; no API keys)",
+              "number": 3,
+              "startedAt": "2026-10-19T13:01:09Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-19T13:01:12Z",
+              "conclusion": "failure",
+              "name": "Check source, deduplicate and prepare pending report",
+              "number": 4,
+              "startedAt": "2026-10-19T13:01:09Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-19T13:01:12Z",
+              "conclusion": "success",
+              "name": "Summarize separate validation layers",
+              "number": 5,
+              "startedAt": "2026-10-19T13:01:12Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-19T13:01:13Z",
+              "conclusion": "success",
+              "name": "Upload review bundle and failure records",
+              "number": 6,
+              "startedAt": "2026-10-19T13:01:12Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-19T13:01:14Z",
+              "conclusion": "success",
+              "name": "Post Checkout reviewed workflow and collector",
+              "number": 12,
+              "startedAt": "2026-10-19T13:01:13Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-19T13:01:14Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 13,
+              "startedAt": "2026-10-19T13:01:14Z",
+              "status": "completed"
+            }
+          ],
+          "url": "https://github.com/ian09270927/travel-ai-agent/actions/runs/39256597404/job/118073341500"
+        }
+      ],
+      "status": "completed",
+      "updatedAt": "2026-10-19T13:01:17Z",
+      "url": "https://github.com/ian09270927/travel-ai-agent/actions/runs/39256597404"
+    },
+    "artifacts": {
+      "total_count": 1,
+      "artifacts": [
+        {
+          "id": 12187883321,
+          "node_id": "MDg6QXJ0aWZhY3QxMjE4Nzg4MzMyMQ==",
+          "name": "travel-review-39256597404-1",
+          "size_in_bytes": 1187,
+          "url": "https://api.github.com/repos/ian09270927/travel-ai-agent/actions/artifacts/12187883321",
+          "archive_download_url": "https://api.github.com/repos/ian09270927/travel-ai-agent/actions/artifacts/12187883321/zip",
+          "expired": false,
+          "digest": "sha256:77af1c37a06122505072e83ffed92d2f6984d461f93bddf9aa3314dff6d7bb57",
+          "created_at": "2026-10-19T13:01:13Z",
+          "updated_at": "2026-10-19T13:01:13Z",
+          "expires_at": "2026-11-02T13:01:13Z",
+          "workflow_run": {
+            "id": 39256597404,
+            "repository_id": 1425509250,
+            "head_repository_id": 1425509250,
+            "head_branch": "main",
+            "head_sha": "b5e47c956ebec4384a4e745fcc2e620395568beb"
+          }
+        }
+      ]
+    },
+    "downloaded_and_checked": true
+  }
+]

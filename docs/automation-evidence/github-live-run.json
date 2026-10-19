@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "review_status": "blocked",
+  "mode": "live",
+  "started_at_taipei": "2026-10-19T21:01:09.964479+08:00",
+  "started_at_utc": "2026-10-19T13:01:09.964479+00:00",
+  "event_name": "workflow_dispatch",
+  "github_run_id": "39256597404",
+  "github_run_attempt": "1",
+  "commit_sha": "b5e47c956ebec4384a4e745fcc2e620395568beb",
+  "source_id": "tourism-attractions-7777",
+  "source_check": "metadata_license_and_link_checked_only",
+  "ai_call": "not_used",
+  "website_update": "not_attempted",
+  "publication": "not_attempted",
+  "draft_generated": false,
+  "stage": "source",
+  "metadata_sha256": "6045177e5553e193e48887f01127722366446abbe2090cbf90cb496de3e54b22",
+  "error_type": "PipelineError",
+  "error": "Expected ZIP but source returned a rejection page or other content; stop without bypass or fixture fallback",
+  "finished_at_utc": "2026-10-19T13:01:12.828091+00:00"
+}

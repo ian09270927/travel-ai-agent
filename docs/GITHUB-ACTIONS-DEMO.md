@@ -1,6 +1,6 @@
 # 每週旅遊情報待審稿｜GitHub Actions 示範
 
-建立日期：2026-10-19。**本地測試已完成，現依使用者授權進行 GitHub 手動執行驗證；實際結果見驗收紀錄，週一 schedule 投遞仍待另驗證。** 不自動呼叫 AI、不寫回網站、不建立 PR、不發布內容。這次另保留本地成功及失敗紀錄，見 [驗收紀錄](GITHUB-ACTIONS-TEST-REPORT.md)。
+建立日期：2026-10-19。**已依使用者授權提交並真實手動執行 GitHub Actions：fixture 成功、live 因來源回傳非 ZIP 頁面而失敗；週一 schedule 投遞仍待另驗證。** 不自動呼叫 AI、不寫回網站、不建立 PR、不發布內容。兩次 artifact 已下載核對，詳見 [驗收紀錄](GITHUB-ACTIONS-TEST-REPORT.md)。
 
 ## 排程與權限
 
@@ -95,7 +95,7 @@ py -3.12 -X utf8 automation/travel-weekly/collect_weekly.py --mode live --output
 
 ## GitHub 分層驗收與人工審核
 
-初版只產出排程與紀錄；現依使用者授權執行 GitHub 手動測試。完整驗收步驟：
+初版只產出排程與紀錄；現已依使用者授權完成 GitHub 手動測試。下列保留完整驗收步驟，其中 fixture 已成功、live 已確認失敗處理有效，但尚無 live 成功證據：
 
 1. 檢查差異，只加入本次工作流程、automation 程式與文件，不把尚未提交的其他技能變更順便加入。
 2. 經授權 Commit／push 至 `ian09270927/travel-ai-agent` 的預設分支。檔案只放在本機不會啟用 GitHub 排程。
